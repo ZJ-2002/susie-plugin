@@ -45,7 +45,7 @@ The node mounts the mixer.g1000_eur signed-LD catalog panel, aligns against its 
 
 Defaults: l=10, estimate_prior_method=optim, estimate_residual_variance=false, estimate_prior_variance=true, coverage=0.95, min_abs_corr=0.5, scaled_prior_variance=0.2, z_method=wald, r2_min=0, check_null_threshold=0, max_iter=100, timeout_secs=1800, artifact_prefix=/artifacts/susie_rss_container."""
 timeout_secs = 1800
-artifact_prefix = "/artifacts/susie_rss"
+artifact_prefix = "/artifacts/susie_rss_container"
 
 [nodes.ports]
 inputs = [{ type = "file" }]
