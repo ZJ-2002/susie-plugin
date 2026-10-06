@@ -2,7 +2,7 @@ schema_version = 1
 plugin_name = "susie"
 
 [image]
-reference = "ghcr.io/auto-nomics/autonomics/susie@sha256:8a72a443461add5c94c4907f9a1d6106b989850e93217a95587d9095542febe8"
+reference = "ghcr.io/zj-2002/susie@sha256:b1df377e428e6166cd8ac65ac3e131c46c3bb68f172969c0e0f910751792d87e"
 tag = "0.16.6"
 upstream = "susieR 0.16.6 @ ef213feed2cb82419677661a8c986e1504df2c73 (rocker/r-ver:4.5.1 base, gsa-mixer 2.2.1 libbgmg LD helper)"
 license = "BSD-3-Clause"
